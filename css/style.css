@@ -14,7 +14,16 @@ header{
     grid-area: header;
 }
 main{
+    background-color: lightgray;
+    text-align: justify;
     grid-area: main;
+}
+main h1{
+    padding: 0 20px;
+    text-align: center;
+}
+main p{
+    padding: 0 20px;
 }
 nav{
     align-items: center;
