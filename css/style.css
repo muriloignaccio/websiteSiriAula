@@ -1,0 +1,22 @@
+body{
+    display: grid;
+    grid-template-areas: "nav"
+                         "header"
+                         "main"
+                         "section";
+    grid-template-columns: 100vw;
+    grid-template-rows: 10vh 30vh 40vh 20vh;
+    margin: 0;
+}
+header{
+    grid-area: header;
+}
+main{
+    grid-area: main;
+}
+nav{
+    grid-area: nav;
+}
+section{
+    grid-area: section;
+}
