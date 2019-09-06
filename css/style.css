@@ -11,18 +11,17 @@ body{
 header{
     background-image: url(../images/banner.png);
     background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
     grid-area: header;
 }
 main{
+    align-items: center;
     background-color: lightgray;
-    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     grid-area: main;
-}
-main h1{
-    padding: 0 20px;
-    text-align: center;
-}
-main p{
     padding: 0 20px;
 }
 nav{
@@ -48,5 +47,11 @@ nav img{
     height: 3px;
 }
 section{
+    display: flex;
+    flex-direction: column;
     grid-area: section;
+    align-items: center;
+}
+section img{
+    height: 72px;
 }
